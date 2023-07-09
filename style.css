@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 216, 151);
+}
+
+.container {
+    max-width: 1000px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+header {}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border: 3px solid royalblue;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.header-bio {
+    float: left;
+    padding: 10px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: brown;
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: rgb(15, 6, 143);
+    font-weight: 800;
+
+
+}
+
+.header-contact a:hover {
+    text-decoration: underline;
+    color: rgb(6, 143, 88);
+    font-weight: 800;
+
+}
+
+.div-clear {
+    clear: both;
+}
+
+hr {
+    border: solid black 3px;
+    width: 100%;
+    margin :20px auto;
+    border-bottom: none;
+}
+
+/*
+  personal section
+*/
+#personal-section{
+
+}
+.contant{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.left-div{
+     width: 30%;
+     float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+.common-hr{
+    border-color: black;
+    border: solid 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 30px auto;
+}
+
+.right-left-div{
+    width: 45%;
+     float: left;
+}
+.right-right-div{
+    width: 45%;
+    float: right;
+}
+
+.bottom-container{
+
+    text-align: center;
+    color: blueviolet;
+    text-decoration: none;
+    background-color: rgb(202, 31, 31);
+    padding: 10px;
+
+}
